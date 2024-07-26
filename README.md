@@ -26,9 +26,21 @@ The project is divided into the following steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/naive-bayes-text-classification.git
+   git clone https://github.com/dhruvpal102005/naive-bayes-text-classification.git
    cd naive-bayes-text-classification
 
 2. Install the required dependencies:
    ```sh
    pip install -r requirements.txt
+
+## Usage
+
+Run the Jupyter Notebook to execute the text classification and comparison:
+   ```sh
+   jupyter notebook naive_bayes_text_classification.ipynb
+
+The notebook includes all steps from loading the dataset to evaluating and comparing the models.
+
+## Results
+   The results section in the notebook provides a detailed comparison of the accuracy, precision, recall, and F1-score of both the Scikit-learn model and the custom Naive Bayes implementation. This comparison helps in understanding the differences and performance characteristics of both approaches.
+
