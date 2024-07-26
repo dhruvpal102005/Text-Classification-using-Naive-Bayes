@@ -28,3 +28,7 @@ The project is divided into the following steps:
    ```sh
    git clone https://github.com/yourusername/naive-bayes-text-classification.git
    cd naive-bayes-text-classification
+
+2. Install the required dependencies:
+   ```sh
+   pip install -r requirements.txt
